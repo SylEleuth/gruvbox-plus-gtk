@@ -74,16 +74,16 @@ base background color of insensitive selections on backdrop windows */
 @define-color insensitive_unfocused_selected_bg_color rgba(256, 128, 25, 0.5);
 /*
 text foreground color of insensitive widgets on backdrop windows*/
-@define-color insensitive_unfocused_fg_color rgba(235, 219, 178 0.5);
+@define-color insensitive_unfocused_fg_color rgba(235, 219, 178, 0.5);
 /*
 backdground color of insensitive widgets on backdrop windows*/
 @define-color insensitive_unfocused_bg_color #282828;
 /*
 text foreground color of insensitive selected widgets on backdrop windows*/
-@define-color insensitive_unfocused_selected_fg_color rgba(235, 219, 178 0.5);
+@define-color insensitive_unfocused_selected_fg_color rgba(235, 219, 178, 0.5);
 /*
 view text foreground color of insensitive widgets on backdrop windows */
-@define-color theme_unfocused_view_text_color rgba(235, 219, 178 0.5);
+@define-color theme_unfocused_view_text_color rgba(235, 219, 178, 0.5);
 /*
 insensitive view background color on backdrop windows */
 @define-color theme_unfocused_view_bg_color #282828;
@@ -112,8 +112,8 @@ widgets main borders color insensitive backdrop */
 @define-color theme_button_background_insensitive        rgba(80, 73, 69, 0.5);
 @define-color theme_button_decoration_hover_insensitive  rgba(254, 128, 25, 0.5);
 @define-color theme_button_decoration_focus_insensitive  rgba(254, 128, 25, 0.5);
-@define-color theme_button_foreground_insensitive        rgba(235, 219, 178 0.5);
-@define-color theme_button_foreground_active_insensitive rgba(235, 219, 178 0.5);
+@define-color theme_button_foreground_insensitive        rgba(235, 219, 178, 0.5);
+@define-color theme_button_foreground_active_insensitive rgba(235, 219, 178, 0.5);
 @define-color theme_button_background_backdrop        #3c3836;
 @define-color theme_button_decoration_hover_backdrop  #fe8019;
 @define-color theme_button_decoration_focus_backdrop  #fe8019;
@@ -122,8 +122,8 @@ widgets main borders color insensitive backdrop */
 @define-color theme_button_background_backdrop_insensitive        rgba(80, 73, 69, 0.5);
 @define-color theme_button_decoration_hover_backdrop_insensitive  rgba(254, 128, 25, 0.5);
 @define-color theme_button_decoration_focus_backdrop_insensitive  rgba(254, 128, 25, 0.5);
-@define-color theme_button_foreground_backdrop_insensitive        rgba(235, 219, 178 0.5);
-@define-color theme_button_foreground_active_backdrop_insensitive rgba(235, 219, 178 0.5);
+@define-color theme_button_foreground_backdrop_insensitive        rgba(235, 219, 178, 0.5);
+@define-color theme_button_foreground_active_backdrop_insensitive rgba(235, 219, 178, 0.5);
 /*
 these are pretty self explicative */
 @define-color warning_color #f9bc2e;
@@ -150,7 +150,7 @@ these are pretty self explicative */
 @define-color theme_titlebar_background_light    #282828;
 @define-color theme_titlebar_foreground_backdrop #3c3836;
 @define-color theme_titlebar_background_backdrop #282828;
-@define-color theme_titlebar_foreground_insensitive rgba(235, 219, 178 0.5);
+@define-color theme_titlebar_foreground_insensitive rgba(235, 219, 178, 0.5);
 @define-color theme_titlebar_foreground_insensitive_backdrop rgba(80, 73, 69, 0.5);
 /*
 * Tooltips
