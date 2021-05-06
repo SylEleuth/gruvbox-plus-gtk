@@ -126,18 +126,18 @@ widgets main borders color insensitive backdrop */
 @define-color theme_button_foreground_active_backdrop_insensitive rgba(235, 219, 178, 0.5);
 /*
 these are pretty self explicative */
-@define-color warning_color #f9bc2e;
+@define-color warning_color #fabd2f;
 @define-color error_color   #83a598;
 @define-color success_color #8ec07c;
-@define-color warning_color_backdrop #f9bc2e;
+@define-color warning_color_backdrop #fabd2f;
 @define-color error_color_backdrop   #83a598;
 @define-color success_color_backdrop #8ec07c;
 @define-color warning_color_insensitive rgba(250, 189, 47, 0.5);
 @define-color error_color_insensitive   rgba(251, 73, 52, 0.5);
-@define-color success_color_insensitive rgba(142,192, 124, 0.5);
+@define-color success_color_insensitive rgba(142, 192, 124, 0.5);
 @define-color warning_color_insensitive_backdrop rgba(250, 189, 47, 0.5);
 @define-color error_color_insensitive_backdrop   rgba(251, 73, 52, 0.5);
-@define-color success_color_insensitive_backdrop rgba(142,192, 124, 0.5);
+@define-color success_color_insensitive_backdrop rgba(142, 192, 124, 0.5);
 @define-color link_color #83a598;
 @define-color link_visited_color #458588;
 /*
@@ -148,7 +148,7 @@ these are pretty self explicative */
 @define-color theme_titlebar_background          #282828;
 @define-color theme_titlebar_foreground          #ebdbb2;
 @define-color theme_titlebar_background_light    #282828;
-@define-color theme_titlebar_foreground_backdrop #3c3836;
+@define-color theme_titlebar_foreground_backdrop #928374;
 @define-color theme_titlebar_background_backdrop #282828;
 @define-color theme_titlebar_foreground_insensitive rgba(235, 219, 178, 0.5);
 @define-color theme_titlebar_foreground_insensitive_backdrop rgba(80, 73, 69, 0.5);
