@@ -127,10 +127,10 @@ widgets main borders color insensitive backdrop */
 /*
 these are pretty self explicative */
 @define-color warning_color #fabd2f;
-@define-color error_color   #83a598;
+@define-color error_color   #fb4934;
 @define-color success_color #8ec07c;
 @define-color warning_color_backdrop #fabd2f;
-@define-color error_color_backdrop   #83a598;
+@define-color error_color_backdrop   #fb4934;
 @define-color success_color_backdrop #8ec07c;
 @define-color warning_color_insensitive rgba(250, 189, 47, 0.5);
 @define-color error_color_insensitive   rgba(251, 73, 52, 0.5);
@@ -161,7 +161,7 @@ these are pretty self explicative */
 /*
 * Misc
 */
-@define-color print_paper_backdrop  white;
+@define-color print_paper_backdrop  #ebdbb2;
 @define-color content_view_bg #282828;
 * {
   padding: 0;
@@ -411,7 +411,7 @@ button.osd {
   padding: 6px 6px;
   background-clip: border-box;
   transition: all 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 1px 1px rgba(40, 40, 40, 0.1);
   text-shadow: none;
   -gtk-icon-shadow: none;
   color: @theme_button_foreground_normal;
@@ -586,7 +586,7 @@ popover.background.touch-selection button.suggested-action.osd button,
 popover.background.magnifier button.suggested-action.osd button,
 button.suggested-action.osd
 button {
-  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 1px 1px rgba(40, 40, 40, 0.1);
   text-shadow: none;
   -gtk-icon-shadow: none;
   color: @theme_button_foreground_normal;
@@ -628,7 +628,7 @@ button {
   button:hover {
     color: @theme_button_foreground_normal;
     border-color: @theme_button_decoration_hover;
-    color: white;
+    color: #ebdbb2;
     background-color: @theme_button_decoration_focus; }
   popover.background.touch-selection button.suggested-action:active, popover.background.magnifier button.suggested-action:active, popover.background.touch-selection button.suggested-action:checked, popover.background.magnifier button.suggested-action:checked, popover.background.touch-selection button.suggested-action:focus, popover.background.magnifier button.suggested-action:focus,
   popover.background.touch-selection button.suggested-action.osd button:active,
@@ -668,7 +668,7 @@ button {
     border-color: @theme_button_decoration_focus;
     background-color: @theme_button_decoration_focus;
     background-color: @theme_button_decoration_focus;
-    color: white; }
+    color: #ebdbb2; }
   popover.background.touch-selection button.suggested-action:backdrop, popover.background.magnifier button.suggested-action:backdrop, popover.background.touch-selection button.suggested-action.flat:backdrop, popover.background.magnifier button.suggested-action.flat:backdrop,
   popover.background.touch-selection button.suggested-action.osd button:backdrop,
   popover.background.magnifier button.suggested-action.osd button:backdrop,
@@ -696,7 +696,7 @@ button {
     border-color: @unfocused_borders;
     background-color: @theme_button_background_backdrop;
     background-color: @theme_button_decoration_focus;
-    color: white; }
+    color: #ebdbb2; }
     popover.background.touch-selection button.suggested-action:backdrop:active, popover.background.magnifier button.suggested-action:backdrop:active, popover.background.touch-selection button.suggested-action:backdrop:checked, popover.background.magnifier button.suggested-action:backdrop:checked, popover.background.touch-selection button.suggested-action:backdrop:focus, popover.background.magnifier button.suggested-action:backdrop:focus, popover.background.touch-selection button.suggested-action.flat:backdrop:active, popover.background.magnifier button.suggested-action.flat:backdrop:active, popover.background.touch-selection button.suggested-action.flat:backdrop:checked, popover.background.magnifier button.suggested-action.flat:backdrop:checked, popover.background.touch-selection button.suggested-action.flat:backdrop:focus, popover.background.magnifier button.suggested-action.flat:backdrop:focus,
     popover.background.touch-selection button.suggested-action.osd button:backdrop:active,
     popover.background.magnifier button.suggested-action.osd button:backdrop:active,
@@ -768,7 +768,7 @@ button {
       border-color: @theme_button_decoration_focus_backdrop;
       background-color: @theme_button_decoration_focus_backdrop;
       background-color: @theme_button_decoration_focus;
-      color: white; }
+      color: #ebdbb2; }
     popover.background.touch-selection button.suggested-action:backdrop:disabled, popover.background.magnifier button.suggested-action:backdrop:disabled, popover.background.touch-selection button.suggested-action.flat:backdrop:disabled, popover.background.magnifier button.suggested-action.flat:backdrop:disabled,
     popover.background.touch-selection button.suggested-action.osd button:backdrop:disabled,
     popover.background.magnifier button.suggested-action.osd button:backdrop:disabled,
@@ -894,7 +894,7 @@ button {
         border-color: @theme_button_decoration_focus_backdrop_insensitive;
         background-color: @theme_button_decoration_focus_backdrop_insensitive;
         background-color: @theme_button_decoration_focus;
-        color: white; }
+        color: #ebdbb2; }
         popover.background.touch-selection button.suggested-action:backdrop:disabled:active > .label, popover.background.magnifier button.suggested-action:backdrop:disabled:active > .label, popover.background.touch-selection button.suggested-action:backdrop:disabled:checked > .label, popover.background.magnifier button.suggested-action:backdrop:disabled:checked > .label, popover.background.touch-selection button.suggested-action:backdrop:disabled:focus > .label, popover.background.magnifier button.suggested-action:backdrop:disabled:focus > .label, popover.background.touch-selection button.suggested-action.flat:backdrop:disabled:active > .label, popover.background.magnifier button.suggested-action.flat:backdrop:disabled:active > .label, popover.background.touch-selection button.suggested-action.flat:backdrop:disabled:checked > .label, popover.background.magnifier button.suggested-action.flat:backdrop:disabled:checked > .label, popover.background.touch-selection button.suggested-action.flat:backdrop:disabled:focus > .label, popover.background.magnifier button.suggested-action.flat:backdrop:disabled:focus > .label,
         popover.background.touch-selection button.suggested-action.osd button:backdrop:disabled:active > .label,
         popover.background.magnifier button.suggested-action.osd popover.background.touch-selection button:backdrop:disabled:active > .label,
@@ -1085,7 +1085,7 @@ button {
       border-color: @theme_button_decoration_focus_insensitive;
       background-color: @theme_button_decoration_focus_insensitive;
       background-color: @theme_button_decoration_focus;
-      color: white; }
+      color: #ebdbb2; }
       popover.background.touch-selection button.suggested-action:disabled:active > .label, popover.background.magnifier button.suggested-action:disabled:active > .label, popover.background.touch-selection button.suggested-action:disabled:checked > .label, popover.background.magnifier button.suggested-action:disabled:checked > .label, popover.background.touch-selection button.suggested-action:disabled:focus > .label, popover.background.magnifier button.suggested-action:disabled:focus > .label,
       popover.background.touch-selection button.suggested-action.osd button:disabled:active > .label,
       popover.background.magnifier button.suggested-action.osd popover.background.touch-selection button:disabled:active > .label,
@@ -1140,7 +1140,7 @@ popover.background.touch-selection button.destructive-action.osd button,
 popover.background.magnifier button.destructive-action.osd button,
 button.destructive-action.osd
 button {
-  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 1px 1px rgba(40, 40, 40, 0.1);
   text-shadow: none;
   -gtk-icon-shadow: none;
   color: @theme_button_foreground_normal;
@@ -1182,7 +1182,7 @@ button {
   button:hover {
     color: @theme_button_foreground_normal;
     border-color: @theme_button_decoration_hover;
-    color: white;
+    color: #ebdbb2;
     background-color: @error_color; }
   popover.background.touch-selection button.destructive-action:active, popover.background.magnifier button.destructive-action:active, popover.background.touch-selection button.destructive-action:checked, popover.background.magnifier button.destructive-action:checked, popover.background.touch-selection button.destructive-action:focus, popover.background.magnifier button.destructive-action:focus,
   popover.background.touch-selection button.destructive-action.osd button:active,
@@ -1222,7 +1222,7 @@ button {
     border-color: @theme_button_decoration_focus;
     background-color: @theme_button_decoration_focus;
     background-color: @error_color;
-    color: white; }
+    color: #ebdbb2; }
   popover.background.touch-selection button.destructive-action:backdrop, popover.background.magnifier button.destructive-action:backdrop, popover.background.touch-selection button.destructive-action.flat:backdrop, popover.background.magnifier button.destructive-action.flat:backdrop,
   popover.background.touch-selection button.destructive-action.osd button:backdrop,
   popover.background.magnifier button.destructive-action.osd button:backdrop,
@@ -1250,7 +1250,7 @@ button {
     border-color: @unfocused_borders;
     background-color: @theme_button_background_backdrop;
     background-color: @error_color;
-    color: white; }
+    color: #ebdbb2; }
     popover.background.touch-selection button.destructive-action:backdrop:active, popover.background.magnifier button.destructive-action:backdrop:active, popover.background.touch-selection button.destructive-action:backdrop:checked, popover.background.magnifier button.destructive-action:backdrop:checked, popover.background.touch-selection button.destructive-action:backdrop:focus, popover.background.magnifier button.destructive-action:backdrop:focus, popover.background.touch-selection button.destructive-action.flat:backdrop:active, popover.background.magnifier button.destructive-action.flat:backdrop:active, popover.background.touch-selection button.destructive-action.flat:backdrop:checked, popover.background.magnifier button.destructive-action.flat:backdrop:checked, popover.background.touch-selection button.destructive-action.flat:backdrop:focus, popover.background.magnifier button.destructive-action.flat:backdrop:focus,
     popover.background.touch-selection button.destructive-action.osd button:backdrop:active,
     popover.background.magnifier button.destructive-action.osd button:backdrop:active,
@@ -1322,7 +1322,7 @@ button {
       border-color: @theme_button_decoration_focus_backdrop;
       background-color: @theme_button_decoration_focus_backdrop;
       background-color: @error_color;
-      color: white; }
+      color: #ebdbb2; }
     popover.background.touch-selection button.destructive-action:backdrop:disabled, popover.background.magnifier button.destructive-action:backdrop:disabled, popover.background.touch-selection button.destructive-action.flat:backdrop:disabled, popover.background.magnifier button.destructive-action.flat:backdrop:disabled,
     popover.background.touch-selection button.destructive-action.osd button:backdrop:disabled,
     popover.background.magnifier button.destructive-action.osd button:backdrop:disabled,
@@ -1448,7 +1448,7 @@ button {
         border-color: @theme_button_decoration_focus_backdrop_insensitive;
         background-color: @theme_button_decoration_focus_backdrop_insensitive;
         background-color: @error_color;
-        color: white; }
+        color: #ebdbb2; }
         popover.background.touch-selection button.destructive-action:backdrop:disabled:active > .label, popover.background.magnifier button.destructive-action:backdrop:disabled:active > .label, popover.background.touch-selection button.destructive-action:backdrop:disabled:checked > .label, popover.background.magnifier button.destructive-action:backdrop:disabled:checked > .label, popover.background.touch-selection button.destructive-action:backdrop:disabled:focus > .label, popover.background.magnifier button.destructive-action:backdrop:disabled:focus > .label, popover.background.touch-selection button.destructive-action.flat:backdrop:disabled:active > .label, popover.background.magnifier button.destructive-action.flat:backdrop:disabled:active > .label, popover.background.touch-selection button.destructive-action.flat:backdrop:disabled:checked > .label, popover.background.magnifier button.destructive-action.flat:backdrop:disabled:checked > .label, popover.background.touch-selection button.destructive-action.flat:backdrop:disabled:focus > .label, popover.background.magnifier button.destructive-action.flat:backdrop:disabled:focus > .label,
         popover.background.touch-selection button.destructive-action.osd button:backdrop:disabled:active > .label,
         popover.background.magnifier button.destructive-action.osd popover.background.touch-selection button:backdrop:disabled:active > .label,
@@ -1639,7 +1639,7 @@ button {
       border-color: @theme_button_decoration_focus_insensitive;
       background-color: @theme_button_decoration_focus_insensitive;
       background-color: @error_color;
-      color: white; }
+      color: #ebdbb2; }
       popover.background.touch-selection button.destructive-action:disabled:active > .label, popover.background.magnifier button.destructive-action:disabled:active > .label, popover.background.touch-selection button.destructive-action:disabled:checked > .label, popover.background.magnifier button.destructive-action:disabled:checked > .label, popover.background.touch-selection button.destructive-action:disabled:focus > .label, popover.background.magnifier button.destructive-action:disabled:focus > .label,
       popover.background.touch-selection button.destructive-action.osd button:disabled:active > .label,
       popover.background.magnifier button.destructive-action.osd popover.background.touch-selection button:disabled:active > .label,
@@ -1979,7 +1979,7 @@ treeview entry.flat, treeview entry {
     background-image: none; }
   .app-notification button,
   .app-notification.frame button {
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 1px 1px 1px rgba(40, 40, 40, 0.1);
     text-shadow: none;
     -gtk-icon-shadow: none;
     color: @theme_button_foreground_normal;
@@ -2083,7 +2083,7 @@ check, radio {
   animation: none;
   background-color: transparent;
   -gtk-icon-palette: error @theme_button_decoration_focus, success @borders, warning @theme_button_background_normal;
-  -gtk-icon-shadow: 1px 1px rgba(35, 38, 41, 0.2); }
+  -gtk-icon-shadow: 1px 1px rgba(40, 40, 40, 0.2); }
   check:only-child, radio:only-child {
     margin: 0; }
   check:hover, radio:hover {
@@ -2100,18 +2100,18 @@ check, radio {
     animation: none; }
 
 check {
-  -gtk-icon-source: -gtk-recolor(url("../assets/breeze-check-unchecked-symbolic.svg")); }
+  -gtk-icon-source: -gtk-recolor(url("../assets/gruvbox-check-unchecked-symbolic.svg")); }
   check:checked {
-    -gtk-icon-source: -gtk-recolor(url("../assets/breeze-check-checked-symbolic.svg")); }
+    -gtk-icon-source: -gtk-recolor(url("../assets/gruvbox-check-checked-symbolic.svg")); }
   check:indeterminate {
-    -gtk-icon-source: -gtk-recolor(url("../assets/breeze-check-indeterminate-symbolic.svg")); }
+    -gtk-icon-source: -gtk-recolor(url("../assets/gruvbox-check-indeterminate-symbolic.svg")); }
 
 radio {
-  -gtk-icon-source: -gtk-recolor(url("../assets/breeze-radio-unchecked-symbolic.svg")); }
+  -gtk-icon-source: -gtk-recolor(url("../assets/gruvbox-radio-unchecked-symbolic.svg")); }
   radio:checked {
-    -gtk-icon-source: -gtk-recolor(url("../assets/breeze-radio-checked-symbolic.svg")); }
+    -gtk-icon-source: -gtk-recolor(url("../assets/gruvbox-radio-checked-symbolic.svg")); }
   radio:indeterminate {
-    -gtk-icon-source: -gtk-recolor(url("../assets/breeze-radio-indeterminate-symbolic.svg")); }
+    -gtk-icon-source: -gtk-recolor(url("../assets/gruvbox-radio-indeterminate-symbolic.svg")); }
 
 /*****************
  * Color Chooser *
@@ -2133,10 +2133,10 @@ colorswatch:only-child > .overlay {
   border-radius: 3px; }
 
 colorswatch:hover, colorswatch:hover:selected {
-  background-image: linear-gradient(135deg, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0) 50%);
-  box-shadow: inset 0 1px rgba(255, 255, 255, 0.4); }
+  background-image: linear-gradient(135deg, rgba(235, 219, 178, 0.7), rgba(235, 219, 178, 0) 50%);
+  box-shadow: inset 0 1px rgba(235, 219, 178, 0.4); }
   colorswatch:hover.color-dark, colorswatch:hover:selected.color-dark {
-    background-image: linear-gradient(135deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0) 50%); }
+    background-image: linear-gradient(135deg, rgba(235, 219, 178, 0.5), rgba(235, 219, 178, 0) 50%); }
 
 colorswatch:backdrop,
 colorswatch:backdrop:selected colorswatch.color-dark:backdrop, colorswatch.color-dark:backdrop:selected {
@@ -2152,16 +2152,16 @@ GtkColorEditor colorswatch {
     box-shadow: none; }
 
 colorswatch.color-dark {
-  color: white;
-  outline-color: rgba(0, 0, 0, 0.3); }
+  color: #ebdbb2;
+  outline-color: rgba(40, 40, 40, 0.3); }
   colorswatch.color-dark:backdrop {
-    color: rgba(255, 255, 255, 0.3); }
+    color: rgba(235, 219, 178, 0.3); }
 
 colorswatch.color-light {
-  color: black;
-  outline-color: rgba(255, 255, 255, 0.5); }
+  color: #282828;
+  outline-color: rgba(235, 219, 178, 0.5); }
   colorswatch.color-light:backdrop {
-    color: rgba(0, 0, 0, 0.3); }
+    color: rgba(40, 40, 40, 0.3); }
 
 colorswatch overlay,
 colorswatch overlay:selected {
@@ -2173,7 +2173,7 @@ colorswatch overlay:selected {
 colorswatch#add-color-button {
   border-style: solid;
   border-width: 1px;
-  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 1px 1px rgba(40, 40, 40, 0.1);
   text-shadow: none;
   -gtk-icon-shadow: none;
   color: @theme_button_foreground_normal;
@@ -2837,7 +2837,7 @@ popover.background radiobutton,
   .menuitem.button.flat check,
   .menuitem.button.flat radio {
     -gtk-icon-palette: error @theme_button_decoration_focus, success @borders, warning @theme_button_background_normal;
-    -gtk-icon-shadow: 1px 1px rgba(35, 38, 41, 0.2); }
+    -gtk-icon-shadow: 1px 1px rgba(40, 40, 40, 0.2); }
     modelbutton.flat check:hover, popover.background checkbutton check:hover, popover.background radiobutton check:hover, modelbutton.flat radio:hover, popover.background checkbutton radio:hover, popover.background radiobutton radio:hover,
     .menuitem.button.flat check:hover,
     .menuitem.button.flat radio:hover {
@@ -2848,22 +2848,22 @@ popover.background radiobutton,
       -gtk-icon-palette: error @theme_button_decoration_focus_insensitive, success @insensitive_borders, warning @theme_button_background_insensitive; }
   modelbutton.flat check, popover.background checkbutton check, popover.background radiobutton check,
   .menuitem.button.flat check {
-    -gtk-icon-source: -gtk-recolor(url("../assets/breeze-check-unchecked-symbolic.svg")); }
+    -gtk-icon-source: -gtk-recolor(url("../assets/gruvbox-check-unchecked-symbolic.svg")); }
     modelbutton.flat check:checked, popover.background checkbutton check:checked, popover.background radiobutton check:checked,
     .menuitem.button.flat check:checked {
-      -gtk-icon-source: -gtk-recolor(url("../assets/breeze-check-checked-symbolic.svg")); }
+      -gtk-icon-source: -gtk-recolor(url("../assets/gruvbox-check-checked-symbolic.svg")); }
     modelbutton.flat check:indeterminate, popover.background checkbutton check:indeterminate, popover.background radiobutton check:indeterminate,
     .menuitem.button.flat check:indeterminate {
-      -gtk-icon-source: -gtk-recolor(url("../assets/breeze-check-indeterminate-symbolic.svg")); }
+      -gtk-icon-source: -gtk-recolor(url("../assets/gruvbox-check-indeterminate-symbolic.svg")); }
   modelbutton.flat radio, popover.background checkbutton radio, popover.background radiobutton radio,
   .menuitem.button.flat radio {
-    -gtk-icon-source: -gtk-recolor(url("../assets/breeze-radio-unchecked-symbolic.svg")); }
+    -gtk-icon-source: -gtk-recolor(url("../assets/gruvbox-radio-unchecked-symbolic.svg")); }
     modelbutton.flat radio:checked, popover.background checkbutton radio:checked, popover.background radiobutton radio:checked,
     .menuitem.button.flat radio:checked {
-      -gtk-icon-source: -gtk-recolor(url("../assets/breeze-radio-checked-symbolic.svg")); }
+      -gtk-icon-source: -gtk-recolor(url("../assets/gruvbox-radio-checked-symbolic.svg")); }
     modelbutton.flat radio:indeterminate, popover.background checkbutton radio:indeterminate, popover.background radiobutton radio:indeterminate,
     .menuitem.button.flat radio:indeterminate {
-      -gtk-icon-source: -gtk-recolor(url("../assets/breeze-radio-indeterminate-symbolic.svg")); }
+      -gtk-icon-source: -gtk-recolor(url("../assets/gruvbox-radio-indeterminate-symbolic.svg")); }
   modelbutton.flat check:last-child, popover.background checkbutton check:last-child, popover.background radiobutton check:last-child,
   modelbutton.flat radio:last-child,
   popover.background checkbutton radio:last-child,
@@ -2897,7 +2897,7 @@ popover.background {
   border: 1px solid @borders;
   border-radius: 3px;
   background-color: @theme_bg_color;
-  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.9); }
+  box-shadow: 0 2px 3px rgba(40, 40, 40, 0.9); }
   popover.background:backdrop {
     box-shadow: none; }
   popover.background > list,
@@ -2924,7 +2924,7 @@ GtkVolumeButton.button {
 printdialog paper {
   color: @theme_fg_color;
   border: 1px solid @borders;
-  background: white;
+  background: #ebdbb2;
   padding: 0; }
   printdialog paper:backdrop {
     color: @theme_unfocused_fg_color;
@@ -3276,7 +3276,7 @@ notebook > header {
     notebook > header > tabs > arrow:hover:not(:active):not(:backdrop) {
       background-clip: padding-box;
       background-image: none;
-      background-color: rgba(255, 255, 255, 0.3);
+      background-color: rgba(235, 219, 178, 0.3);
       border-color: transparent;
       box-shadow: none; }
     notebook > header > tabs > arrow:disabled {
@@ -4141,7 +4141,7 @@ treeview.view header button, treeview.view header button:hover, treeview.view he
 decoration {
   border-radius: 3px 3px 0 0;
   border-width: 0px;
-  box-shadow: 0 2px 6px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 2px 6px 1px rgba(40, 40, 40, 0.5);
   /* this is used for the resize cursor area */
   margin: 10px; }
   .maximized decoration,
@@ -4150,17 +4150,17 @@ decoration {
     border-radius: 0; }
   .popup decoration {
     border-radius: 3px;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1); }
+    box-shadow: 2px 2px 2px 1px rgba(40, 40, 40, 0.1); }
   .ssd decoration {
-    box-shadow: 0 2px 6px 1px rgba(0, 0, 0, 0.1); }
+    box-shadow: 0 2px 6px 1px rgba(40, 40, 40, 0.1); }
   .csd decoration {
     border-radius: 3px; }
     .csd decoration.popup {
-      box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1); }
+      box-shadow: 2px 2px 2px 1px rgba(40, 40, 40, 0.1); }
     .csd decoration.tooltip {
       box-shadow: none; }
     .csd decoration.message-dialog {
-      box-shadow: 0 2px 6px 1px rgba(0, 0, 0, 0.5); }
+      box-shadow: 0 2px 6px 1px rgba(40, 40, 40, 0.5); }
   .solid-csd decoration {
     border-radius: 0;
     margin: 0;
@@ -4197,7 +4197,7 @@ headerbar button.titlebutton,
     background-position: center;
     background-repeat: no-repeat;
     background-size: 18px 18px;
-    background-image: -gtk-recolor(url("../assets/breeze-close-symbolic.svg"), color @theme_text_color);
+    background-image: -gtk-recolor(url("../assets/gruvbox-close-symbolic.svg"), color @theme_text_color);
     -gtk-icon-source: none; }
     headerbar button.titlebutton.close image,
     .titlebar button.titlebutton.close image {
@@ -4206,17 +4206,17 @@ headerbar button.titlebutton,
   .titlebar button.titlebutton.close:hover {
     border-color: transparent;
     background-color: transparent;
-    background-image: -gtk-recolor(url("../assets/breeze-close-hover-symbolic.svg")); }
+    background-image: -gtk-recolor(url("../assets/gruvbox-close-hover-symbolic.svg")); }
   headerbar button.titlebutton.close:active,
   .titlebar button.titlebutton.close:active {
     border-color: transparent;
     background-color: transparent;
-    background-image: -gtk-recolor(url("../assets/breeze-close-active-symbolic.svg")); }
+    background-image: -gtk-recolor(url("../assets/gruvbox-close-active-symbolic.svg")); }
   headerbar button.titlebutton.close:backdrop,
   .titlebar button.titlebutton.close:backdrop {
     border-color: transparent;
     background-color: transparent;
-    background-image: -gtk-recolor(url("../assets/breeze-close-symbolic.svg")); }
+    background-image: -gtk-recolor(url("../assets/gruvbox-close-symbolic.svg")); }
   headerbar button.titlebutton.maximize,
   .titlebar button.titlebutton.maximize {
     padding: 1px;
@@ -4225,7 +4225,7 @@ headerbar button.titlebutton,
     background-position: center;
     background-repeat: no-repeat;
     background-size: 18px 18px;
-    background-image: -gtk-recolor(url("../assets/breeze-maximize-symbolic.svg")); }
+    background-image: -gtk-recolor(url("../assets/gruvbox-maximize-symbolic.svg")); }
     headerbar button.titlebutton.maximize image,
     .titlebar button.titlebutton.maximize image {
       color: transparent; }
@@ -4234,17 +4234,17 @@ headerbar button.titlebutton,
     border-color: transparent;
     background-color: transparent;
     background-size: contain;
-    background-image: -gtk-recolor(url("../assets/breeze-maximize-hover-symbolic.svg")); }
+    background-image: -gtk-recolor(url("../assets/gruvbox-maximize-hover-symbolic.svg")); }
   headerbar button.titlebutton.maximize:active,
   .titlebar button.titlebutton.maximize:active {
     border-color: transparent;
     background-color: transparent;
-    background-image: -gtk-recolor(url("../assets/breeze-maximize-active-symbolic.svg")); }
+    background-image: -gtk-recolor(url("../assets/gruvbox-maximize-active-symbolic.svg")); }
   headerbar button.titlebutton.maximize:backdrop,
   .titlebar button.titlebutton.maximize:backdrop {
     border-color: transparent;
     background-color: transparent;
-    background-image: -gtk-recolor(url("../assets/breeze-maximize-symbolic.svg")); }
+    background-image: -gtk-recolor(url("../assets/gruvbox-maximize-symbolic.svg")); }
   headerbar button.titlebutton.minimize,
   .titlebar button.titlebutton.minimize {
     padding: 1px;
@@ -4253,7 +4253,7 @@ headerbar button.titlebutton,
     background-position: center;
     background-repeat: no-repeat;
     background-size: 18px 18px;
-    background-image: -gtk-recolor(url("../assets/breeze-minimize-symbolic.svg")); }
+    background-image: -gtk-recolor(url("../assets/gruvbox-minimize-symbolic.svg")); }
     headerbar button.titlebutton.minimize image,
     .titlebar button.titlebutton.minimize image {
       color: transparent; }
@@ -4261,17 +4261,17 @@ headerbar button.titlebutton,
   .titlebar button.titlebutton.minimize:hover {
     border-color: transparent;
     background-color: transparent;
-    background-image: -gtk-recolor(url("../assets/breeze-minimize-hover-symbolic.svg")); }
+    background-image: -gtk-recolor(url("../assets/gruvbox-minimize-hover-symbolic.svg")); }
   headerbar button.titlebutton.minimize:active,
   .titlebar button.titlebutton.minimize:active {
     border-color: transparent;
     background-color: transparent;
-    background-image: -gtk-recolor(url("../assets/breeze-minimize-active-symbolic.svg")); }
+    background-image: -gtk-recolor(url("../assets/gruvbox-minimize-active-symbolic.svg")); }
   headerbar button.titlebutton.minimize:backdrop,
   .titlebar button.titlebutton.minimize:backdrop {
     border-color: transparent;
     background-color: transparent;
-    background-image: -gtk-recolor(url("../assets/breeze-minimize-symbolic.svg")); }
+    background-image: -gtk-recolor(url("../assets/gruvbox-minimize-symbolic.svg")); }
 
 .maximized headerbar button.titlebutton.maximize, .maximized
 .titlebar button.titlebutton.maximize {
@@ -4281,7 +4281,7 @@ headerbar button.titlebutton,
   background-position: center;
   background-size: 18px 18px;
   background-repeat: no-repeat;
-  background-image: -gtk-recolor(url("../assets/breeze-maximized-symbolic.svg")); }
+  background-image: -gtk-recolor(url("../assets/gruvbox-maximized-symbolic.svg")); }
   .maximized headerbar button.titlebutton.maximize image, .maximized
   .titlebar button.titlebutton.maximize image {
     color: transparent; }
@@ -4290,19 +4290,19 @@ headerbar button.titlebutton,
 .titlebar button.titlebutton.maximize:hover {
   border-color: transparent;
   background-color: transparent;
-  background-image: -gtk-recolor(url("../assets/breeze-maximized-hover-symbolic.svg")); }
+  background-image: -gtk-recolor(url("../assets/gruvbox-maximized-hover-symbolic.svg")); }
 
 .maximized headerbar button.titlebutton.maximize:active, .maximized
 .titlebar button.titlebutton.maximize:active {
   border-color: transparent;
   background-color: transparent;
-  background-image: -gtk-recolor(url("../assets/breeze-maximized-active-symbolic.svg")); }
+  background-image: -gtk-recolor(url("../assets/gruvbox-maximized-active-symbolic.svg")); }
 
 .maximized headerbar button.titlebutton.maximize:backdrop, .maximized
 .titlebar button.titlebutton.maximize:backdrop {
   border-color: transparent;
   background-color: transparent;
-  background-image: -gtk-recolor(url("../assets/breeze-maximized-symbolic.svg")); }
+  background-image: -gtk-recolor(url("../assets/gruvbox-maximized-symbolic.svg")); }
 
 headerbar.selection-mode button.titlebutton,
 .titlebar.selection-mode button.titlebutton {
