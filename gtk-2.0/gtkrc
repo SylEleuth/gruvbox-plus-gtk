@@ -1,4 +1,4 @@
-# Theme:       GruvboxOne
+# Theme:       Gruvbox Plus
 # Description: Gruvbox theme for GTK+2.0
 
 gtk-color-scheme = "text_color:#ebdbb2"
