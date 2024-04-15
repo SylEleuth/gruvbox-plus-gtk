@@ -5,7 +5,7 @@ style "toolbar"
         image
         {
             function    = BOX
-            file          = "../assets/toolbar-background.png"
+            file          = "../../assets/toolbar-background.png"
             stretch     = TRUE
             }
     }
@@ -23,7 +23,7 @@ image
         {
             function                = BOX
             state                       = NORMAL
-            file                    = "../assets/null.png"
+            file                    = "../../assets/null.png"
             border                  = { 4, 4, 4, 4 }
             stretch                 = TRUE
         }
@@ -31,7 +31,7 @@ image
         {
             function                = BOX
             state                       = PRELIGHT
-            file                    = "../assets/toolbutton-hover.png"
+            file                    = "../../assets/toolbutton-hover.png"
             border                  = { 4, 4, 4, 4 }
             stretch                 = TRUE
         }
@@ -39,7 +39,7 @@ image
         {
             function                = BOX
             state                       = ACTIVE
-            file                    = "../assets/toolbutton-active.png"
+            file                    = "../../assets/toolbutton-active.png"
             border                  = { 4, 4, 4, 4 }
             stretch                 = TRUE
         }
@@ -47,7 +47,7 @@ image
         {
             function                = BOX
             state                       = INSENSITIVE
-            file                    = "../assets/null.png"
+            file                    = "../../assets/null.png"
             border                  = { 4, 4, 4, 4 }
             stretch                 = TRUE
         }
@@ -62,7 +62,7 @@ style "tooltoggle_buttons"
         {
             function      = BOX
             state                 = NORMAL
-            file          = "../assets/null.png"
+            file          = "../../assets/null.png"
             border        = { 4, 4, 4, 4 }
             stretch       = TRUE
         }
@@ -70,7 +70,7 @@ style "tooltoggle_buttons"
         {
             function      = BOX
             state                 = PRELIGHT
-            file          = "../assets/toolbutton-hover.png"
+            file          = "../../assets/toolbutton-hover.png"
             border        = { 4, 4, 4, 4 }
             stretch       = TRUE
         }
@@ -78,7 +78,7 @@ style "tooltoggle_buttons"
         {
             function            = BOX
             state                 = ACTIVE
-            file                  = "../assets/toolbutton-toggled.png"
+            file                  = "../../assets/toolbutton-toggled.png"
             border              = { 4, 4, 4, 4}
             stretch             = TRUE
         }
@@ -86,7 +86,7 @@ style "tooltoggle_buttons"
         {
             function      = BOX
             state                 = INSENSITIVE
-            file          = "../assets/null.png"
+            file          = "../../assets/null.png"
             border        = { 4, 4, 4, 4 }
             stretch       = TRUE
         }

@@ -1,4 +1,4 @@
-/* Gruvbox Plus Dark gtk theme 
+/* Gruvbox Plus Dark gtk theme
 
    GTK NAMED COLORS
    ----------------
@@ -337,7 +337,7 @@ entry selection:focus,
 entry selection, row:selected, .sidebar:selected, .sidebar row:selected {
   background-color: @theme_selected_bg_color;
   color: @theme_selected_fg_color; }
-  
+
   textview text:hover:selected:focus, .view text:hover:selected,
   textview text:hover:selected,
   .view:hover:selected, .view text selection:hover,
@@ -345,7 +345,7 @@ entry selection, row:selected, .sidebar:selected, .sidebar row:selected {
   entry selection:hover, row:hover:selected, .sidebar:hover:selected {
     background-color: @theme_hovering_selected_bg_color;
     color: @theme_fg_color; }
-  
+
   textview text:backdrop:selected:focus, .view text:backdrop:selected,
   textview text:backdrop:selected,
   .view:backdrop:selected, .view text selection:backdrop,
@@ -373,14 +373,14 @@ entry selection, row:selected, .sidebar:selected, .sidebar row:selected {
   entry selection:focus,
   entry selection, row:selected, .sidebar:selected, .sidebar row:selected {
     color: @theme_selected_fg_color; }
-    
+
     textview text:disabled:selected:focus, .view text:disabled:selected,
     textview text:disabled:selected,
     .view:disabled:selected, .view text selection:disabled,
     textview text selection:disabled, flowbox flowboxchild:disabled:selected, label:disabled selection, spinbutton:not(.vertical) selection:disabled:focus, spinbutton:not(.vertical) selection:disabled,
     entry selection:disabled, row:disabled:selected, .sidebar:disabled:selected {
       color: @insensitive_selected_fg_color; }
-    
+
     textview text:backdrop:selected:focus, .view text:backdrop:selected,
     textview text:backdrop:selected,
     .view:backdrop:selected, .view text selection:backdrop,
@@ -2256,27 +2256,27 @@ headerbar {
   color: @theme_titlebar_foreground;
   background-image: none;
   background-color: @theme_titlebar_background; }
-  
+
   headerbar:backdrop {
     border-color: transparent;
     background-image: none;
     background-color: @theme_titlebar_background_backdrop;
     color: @theme_titlebar_foreground_backdrop;
     box-shadow: none; }
-  
+
   headerbar label {
     font-weight: normal; }
-    
+
     headerbar label:backdrop {
       color: @theme_titlebar_foreground_backdrop; }
-  
+
   headerbar .path-bar button {
     color: @theme_titlebar_foreground;
     font-weight: normal; }
-    
+
     headerbar .path-bar button:backdrop {
       color: @theme_titlebar_foreground_backdrop; }
-  
+
   headerbar button {
     transition: none;
     border-color: transparent;
@@ -2287,7 +2287,7 @@ headerbar {
     text-shadow: none;
     -gtk-icon-shadow: none;
     color: @theme_titlebar_foreground; }
-    
+
     headerbar button.flat {
       border-color: transparent;
       background-color: transparent;
@@ -2297,48 +2297,48 @@ headerbar {
       text-shadow: none;
       -gtk-icon-shadow: none;
       color: @theme_titlebar_foreground; }
-    
+
     headerbar button:hover {
       color: @theme_button_foreground_normal;
       border-color: @theme_button_decoration_hover;
       color: @theme_titlebar_foreground; }
-      
+
       headerbar button:hover:backdrop {
         color: @theme_button_foreground_backdrop;
         border-color: @theme_button_decoration_hover;
         background-color: @theme_button_background_backdrop; }
-    
+
     headerbar button:active,
     headerbar button:checked {
       color: @theme_button_foreground_active;
       border-color: @theme_button_decoration_focus;
       background-color: @theme_button_decoration_focus; }
-      
+
       headerbar button:active:hover,
       headerbar button:checked:hover {
         color: @theme_button_foreground_normal;
         border-color: @theme_button_decoration_hover;
         background-color: @theme_button_decoration_hover; }
-      
+
       headerbar button:active:backdrop,
       headerbar button:checked:backdrop {
         background-image: none;
         background-color: @theme_titlebar_background_backdrop;
         border-color: @theme_titlebar_background_backdrop;
         color: @theme_titlebar_foreground_backdrop; }
-        
+
         headerbar button:active:backdrop:hover,
         headerbar button:checked:backdrop:hover {
           color: @theme_button_foreground_backdrop;
           border-color: @theme_button_decoration_hover;
           background-color: @theme_button_background_backdrop; }
-    
+
     headerbar button:backdrop {
       border-color: transparent;
       background-image: none;
       background-color: @theme_titlebar_background_backdrop;
       color: @theme_titlebar_foreground_backdrop; }
-    
+
     headerbar button.flat:backdrop,
     headerbar button.flat:backdrop:disabled,
     headerbar button:disabled:backdrop {
@@ -2346,72 +2346,72 @@ headerbar {
       background-color: @theme_titlebar_background_backdrop;
       color: @theme_titlebar_foreground_backdrop;
       border-color: transparent; }
-    
+
     headerbar button.flat:disabled {
       color: @theme_titlebar_foreground_insensitive; }
-    
+
     headerbar button:disabled {
       background-color: transparent;
       background-image: none;
       border-color: transparent;
       color: @theme_titlebar_foreground_insensitive; }
-      
+
       headerbar button:disabled:active,
       headerbar button:disabled:checked {
         color: @theme_button_foreground_active_insensitive;
         border-color: @theme_button_decoration_focus_insensitive;
         background-color: @theme_button_decoration_focus_insensitive; }
-        
+
         headerbar button:disabled:active > .label,
         headerbar button:disabled:checked > .label {
           color: inherit; }
-  
+
   headerbar .title {
     font-weight: normal;
     padding: 0px 12px; }
-    
+
     headerbar .title:backdrop {
       color: @theme_titlebar_foreground_backdrop; }
-  
+
   headerbar .subtitle {
     font-size: smaller;
     padding: 0 12px; }
-    
+
     headerbar .subtitle:backdrop {
       color: @theme_titlebar_foreground_backdrop; }
-  
+
   headerbar separator {
     border-width: 0px;
     background-color: transparent;
     background-image: none;
     border-color: transparent; }
-  
+
   headerbar.selection-mode,
   headerbar.selection-mode headerbar {
     background-color: mix(@theme_titlebar_background,@theme_button_decoration_focus,0.5); }
-    
+
     headerbar.selection-mode separator,
     headerbar.selection-mode headerbar separator {
       background-color: @theme_button_decoration_focus; }
-    
+
     headerbar.selection-mode button:not(.titlebutton),
     headerbar.selection-mode headerbar button:not(.titlebutton) {
       background-color: alpha(@theme_button_decoration_focus,0.5); }
-      
+
       headerbar.selection-mode button:not(.titlebutton):active,
       headerbar.selection-mode button:not(.titlebutton):focus,
       headerbar.selection-mode headerbar button:not(.titlebutton):active,
       headerbar.selection-mode headerbar button:not(.titlebutton):focus {
         background-color: @theme_button_decoration_focus; }
-    
+
     headerbar.selection-mode .selection-menu,
     headerbar.selection-mode headerbar .selection-menu {
       padding: 4px 6px; }
-      
+
       headerbar.selection-mode .selection-menu GtkArrow,
       headerbar.selection-mode headerbar .selection-menu GtkArrow {
         -GtkArrow-arrow-scaling: 1; }
-      
+
       headerbar.selection-mode .selection-menu .arrow,
       headerbar.selection-mode headerbar .selection-menu .arrow {
         -gtk-icon-source: -gtk-icontheme("pan-down-symbolic");
@@ -2434,20 +2434,20 @@ headerbar.selection-mode.suggested-action,
 headerbar.selection-mode headerbar.suggested-action {
   background-image: none;
   background-color: @theme_button_decoration_focus; }
-  
+
   headerbar button.suggested-action:hover,
   headerbar.selection-mode.suggested-action:hover,
   headerbar.selection-mode headerbar.suggested-action:hover {
     background-color: @theme_button_decoration_hover;
     color: @theme_button_foreground_normal; }
-  
+
   headerbar button.suggested-action:disabled,
   headerbar.selection-mode.suggested-action:disabled,
   headerbar.selection-mode headerbar.suggested-action:disabled {
     background-color: transparent;
     background-image: none;
     color: @theme_titlebar_foreground_insensitive; }
-    
+
     headerbar button.suggested-action:disabled:active,
     headerbar.selection-mode.suggested-action:disabled:active,
     headerbar.selection-mode headerbar.suggested-action:disabled:active,
@@ -2459,14 +2459,14 @@ headerbar.selection-mode headerbar.suggested-action {
       background-color: @theme_button_decoration_focus_insensitive; }
       headerbar button.suggested-action:disabled:active > .label, headerbar.selection-mode.suggested-action:disabled:active > .label, headerbar.selection-mode headerbar.suggested-action:disabled:active > .label, headerbar button.suggested-action:disabled:checked > .label, headerbar.selection-mode.suggested-action:disabled:checked > .label, headerbar.selection-mode headerbar.suggested-action:disabled:checked > .label {
         color: inherit; }
-  
+
   headerbar button.suggested-action:backdrop,
   headerbar.selection-mode.suggested-action:backdrop,
   headerbar.selection-mode headerbar.suggested-action:backdrop {
     background-color: @theme_titlebar_background_backdrop;
     border-color: transparent;
     color: @theme_titlebar_foreground_backdrop; }
-    
+
     headerbar button.suggested-action:backdrop:disabled,
     headerbar.selection-mode.suggested-action:backdrop:disabled,
     headerbar.selection-mode headerbar.suggested-action:backdrop:disabled {

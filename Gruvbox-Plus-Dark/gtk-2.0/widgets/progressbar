@@ -1,7 +1,7 @@
 style "progressbar" {
   xthickness              = 0
   ythickness              = 0
-  
+
   fg[PRELIGHT] = @selected_fg_color
 
   engine "pixmap"
@@ -10,7 +10,7 @@ style "progressbar" {
     {
       function    = BOX
       detail      = "trough"
-      file        = "../assets/progressbar-trough.png"
+      file        = "../../assets/progressbar-trough.png"
       border      = { 4, 4, 4, 4 }
       stretch     = TRUE
       orientation = HORIZONTAL
@@ -19,7 +19,7 @@ style "progressbar" {
     {
       function    = BOX
       detail      = "bar"
-      file        = "../assets/progressbar-bar.png"
+      file        = "../../assets/progressbar-bar.png"
       stretch     = TRUE
       border      = { 4, 4, 4, 4 }
       orientation = HORIZONTAL
@@ -28,7 +28,7 @@ style "progressbar" {
     {
       function    = BOX
       detail      = "trough"
-      file        = "../assets/progressbar-trough.png"
+      file        = "../../assets/progressbar-trough.png"
       border      = { 4, 4, 4, 4 }
       stretch     = TRUE
       orientation = VERTICAL
@@ -37,7 +37,7 @@ style "progressbar" {
     {
       function    = BOX
       detail      = "bar"
-      file        = "../assets/progressbar-bar.png"
+      file        = "../../assets/progressbar-bar.png"
       stretch     = TRUE
       border      = { 4, 4, 4, 4 }
       orientation = VERTICAL

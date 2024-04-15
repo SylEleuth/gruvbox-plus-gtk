@@ -9,7 +9,7 @@ style "button"
     {
       function      = BOX
       state         = NORMAL
-      file          = "../assets/button.png"
+      file          = "../../assets/button.png"
       border        = {4, 4, 4, 4 }
       stretch       = TRUE
     }
@@ -17,7 +17,7 @@ style "button"
     {
       function      = BOX
       state         = PRELIGHT
-      file          = "../assets/button-hover.png"
+      file          = "../../assets/button-hover.png"
       border        = { 4, 4, 4, 4 }
       stretch       = TRUE
     }
@@ -25,7 +25,7 @@ style "button"
     {
       function      = BOX
       state         = ACTIVE
-      file          = "../assets/button-active.png"
+      file          = "../../assets/button-active.png"
       border        = { 4, 4, 4, 4 }
       stretch       = TRUE
     }
@@ -33,7 +33,7 @@ style "button"
    {
      function       = BOX
      state          = INSENSITIVE
-     file           = "../assets/button-insensitive.png"
+     file           = "../../assets/button-insensitive.png"
      border         = { 4, 4, 4, 4 }
      stretch        = TRUE
     }
@@ -46,7 +46,7 @@ style "button"
     {
       function              = ARROW
       state                   = NORMAL
-      overlay_file          = "../assets/arrow-up.png"
+      overlay_file          = "../../assets/arrow-up.png"
       overlay_border        = { 0, 0, 0, 0 }
       overlay_stretch       = FALSE
       arrow_direction       = UP
@@ -55,7 +55,7 @@ style "button"
     {
       function              = ARROW
       state                   = PRELIGHT
-      overlay_file          = "../assets/arrow-up.png"
+      overlay_file          = "../../assets/arrow-up.png"
       overlay_border        = { 0, 0, 0, 0 }
       overlay_stretch       = FALSE
       arrow_direction       = UP
@@ -64,7 +64,7 @@ style "button"
     {
       function              = ARROW
       state                   = ACTIVE
-      overlay_file          = "../assets/arrow-up.png"
+      overlay_file          = "../../assets/arrow-up.png"
       overlay_border        = { 0, 0, 0, 0 }
       overlay_stretch       = FALSE
       arrow_direction       = UP
@@ -73,7 +73,7 @@ style "button"
     {
       function              = ARROW
       state                   = INSENSITIVE
-      overlay_file          = "../assets/arrow-up-insensitive.png"
+      overlay_file          = "../../assets/arrow-up-insensitive.png"
       overlay_border        = { 0, 0, 0, 0 }
       overlay_stretch       = FALSE
       arrow_direction       = UP
@@ -83,7 +83,7 @@ style "button"
     {
     function                = ARROW
       state                   = NORMAL
-      overlay_file          = "../assets/arrow-down.png"
+      overlay_file          = "../../assets/arrow-down.png"
       overlay_border        = { 0, 0, 0, 0 }
       overlay_stretch       = FALSE
       arrow_direction       = DOWN
@@ -92,7 +92,7 @@ style "button"
     {
       function              = ARROW
       state                   = PRELIGHT
-      overlay_file          = "../assets/arrow-down.png"
+      overlay_file          = "../../assets/arrow-down.png"
       overlay_border        = { 0, 0, 0, 0 }
       overlay_stretch       = FALSE
       arrow_direction       = DOWN
@@ -101,7 +101,7 @@ style "button"
     {
       function              = ARROW
       state                   = ACTIVE
-      overlay_file          = "../assets/arrow-down.png"
+      overlay_file          = "../../assets/arrow-down.png"
       overlay_border        = { 0, 0, 0, 0 }
       overlay_stretch       = FALSE
       arrow_direction       = DOWN
@@ -111,7 +111,7 @@ style "button"
     {
       function              = ARROW
       state                   = INSENSITIVE
-      overlay_file          = "../assets/arrow-down-insensitive.png"
+      overlay_file          = "../../assets/arrow-down-insensitive.png"
       overlay_border        = { 0, 0, 0, 0 }
       overlay_stretch       = FALSE
       arrow_direction       = DOWN
@@ -121,7 +121,7 @@ style "button"
     {
       function              = ARROW
       state                   = NORMAL
-      overlay_file          = "../assets/arrow-left.png"
+      overlay_file          = "../../assets/arrow-left.png"
       overlay_border        = { 0, 0, 0, 0 }
       overlay_stretch       = FALSE
       arrow_direction       = LEFT
@@ -130,7 +130,7 @@ style "button"
     {
         function                = ARROW
         state                   = PRELIGHT
-        overlay_file          = "../assets/arrow-left.png"
+        overlay_file          = "../../assets/arrow-left.png"
         overlay_border      = { 0, 0, 0, 0 }
         overlay_stretch     = FALSE
         arrow_direction     = LEFT
@@ -139,7 +139,7 @@ style "button"
     {
         function                = ARROW
         state                   = ACTIVE
-        overlay_file          = "../assets/arrow-left.png"
+        overlay_file          = "../../assets/arrow-left.png"
         overlay_border      = { 0, 0, 0, 0 }
         overlay_stretch     = FALSE
         arrow_direction     = LEFT
@@ -148,7 +148,7 @@ style "button"
     {
         function                = ARROW
         state                   = INSENSITIVE
-        overlay_file          = "../assets/arrow-left-insensitive.png"
+        overlay_file          = "../../assets/arrow-left-insensitive.png"
         overlay_border      = { 0, 0, 0, 0 }
         overlay_stretch     = FALSE
         arrow_direction     = LEFT
@@ -158,7 +158,7 @@ style "button"
     {
         function                = ARROW
         state                     = NORMAL
-        overlay_file          = "../assets/arrow-right.png"
+        overlay_file          = "../../assets/arrow-right.png"
         overlay_border      = { 0, 0, 0, 0 }
         overlay_stretch     = FALSE
         arrow_direction     = RIGHT
@@ -167,7 +167,7 @@ style "button"
     {
         function                = ARROW
         state                   = PRELIGHT
-        overlay_file          = "../assets/arrow-right.png"
+        overlay_file          = "../../assets/arrow-right.png"
         overlay_border      = { 0, 0, 0, 0 }
         overlay_stretch     = FALSE
         arrow_direction     = RIGHT
@@ -176,7 +176,7 @@ style "button"
     {
         function                = ARROW
         state                   = ACTIVE
-        overlay_file          = "../assets/arrow-right.png"
+        overlay_file          = "../../assets/arrow-right.png"
         overlay_border      = { 0, 0, 0, 0 }
         overlay_stretch     = FALSE
         arrow_direction     = RIGHT
@@ -185,7 +185,7 @@ style "button"
     {
         function                = ARROW
         state                   = INSENSITIVE
-        overlay_file          = "../assets/arrow-right-insensitive.png"
+        overlay_file          = "../../assets/arrow-right-insensitive.png"
         overlay_border      = { 0, 0, 0, 0 }
         overlay_stretch     = FALSE
         arrow_direction     = RIGHT
@@ -198,14 +198,14 @@ style "button"
     {
       function            = TAB
       state                 = INSENSITIVE
-      overlay_file        = "../assets/arrow-down-insensitive.png"
+      overlay_file        = "../../assets/arrow-down-insensitive.png"
       overlay_stretch     = FALSE
     }
     image
     {
       function              = TAB
       state                   = NORMAL
-      overlay_file          = "../assets/arrow-down.png"
+      overlay_file          = "../../assets/arrow-down.png"
       overlay_border        = { 0, 0, 0, 0 }
       overlay_stretch       = FALSE
     }
@@ -213,7 +213,7 @@ style "button"
     {
       function              = TAB
       state                   = PRELIGHT
-      overlay_file          = "../assets/arrow-down.png"
+      overlay_file          = "../../assets/arrow-down.png"
       overlay_border        = { 0, 0, 0, 0 }
       overlay_stretch       = FALSE
     }
@@ -231,7 +231,7 @@ style "togglebutton"
     {
       function      = BOX
       state         = NORMAL
-      file          = "../assets/togglebutton.png"
+      file          = "../../assets/togglebutton.png"
       border        = {4, 4, 4, 4 }
       stretch       = TRUE
     }
@@ -239,7 +239,7 @@ style "togglebutton"
     {
       function      = BOX
       state         = PRELIGHT
-      file          = "../assets/togglebutton-hover.png"
+      file          = "../../assets/togglebutton-hover.png"
       border        = { 4, 4, 4, 4 }
       stretch       = TRUE
     }
@@ -247,7 +247,7 @@ style "togglebutton"
     {
       function      = BOX
       state         = ACTIVE
-      file          = "../assets/togglebutton-active.png"
+      file          = "../../assets/togglebutton-active.png"
       border        = { 4, 4, 4, 4 }
       stretch       = TRUE
     }
@@ -255,7 +255,7 @@ style "togglebutton"
    {
      function       = BOX
      state          = INSENSITIVE
-     file           = "../assets/togglebutton-insensitive.png"
+     file           = "../../assets/togglebutton-insensitive.png"
      border         = { 4, 4, 4, 4 }
      stretch        = TRUE
     }
@@ -283,10 +283,10 @@ engine "pixmap"
     function          = BOX
     state             = NORMAL
     detail            = "spinbutton_up"
-    file              = "../assets/spinbutton-up.png"
+    file              = "../../assets/spinbutton-up.png"
     border            = { 5, 5, 5, 5 }
     stretch           = TRUE
-    overlay_file      = "../assets/arrow-small-up.png"
+    overlay_file      = "../../assets/arrow-small-up.png"
     overlay_stretch   = FALSE
   }
   image
@@ -294,10 +294,10 @@ engine "pixmap"
     function          = BOX
     state             = PRELIGHT
     detail            = "spinbutton_up"
-    file              = "../assets/spinbutton-up.png"
+    file              = "../../assets/spinbutton-up.png"
     border            = { 5, 5, 5, 5 }
     stretch           = TRUE
-    overlay_file      = "../assets/arrow-small-up-hover.png"
+    overlay_file      = "../../assets/arrow-small-up-hover.png"
     overlay_stretch   = FALSE
   }
   image
@@ -305,10 +305,10 @@ engine "pixmap"
     function          = BOX
     state             = INSENSITIVE
     detail            = "spinbutton_up"
-    file              = "../assets/spinbutton-up-insensitive.png"
+    file              = "../../assets/spinbutton-up-insensitive.png"
     border            = { 5, 5, 5, 5 }
     stretch           = TRUE
-    overlay_file      = "../assets/arrow-small-up-insensitive.png"
+    overlay_file      = "../../assets/arrow-small-up-insensitive.png"
     overlay_stretch   = FALSE
   }
   image
@@ -316,10 +316,10 @@ engine "pixmap"
     function          = BOX
     state             = ACTIVE
     detail            = "spinbutton_up"
-    file              = "../assets/spinbutton-up.png"
+    file              = "../../assets/spinbutton-up.png"
     border            = { 5, 5, 5, 5 }
     stretch           = TRUE
-    overlay_file      = "../assets/arrow-small-up-active.png"
+    overlay_file      = "../../assets/arrow-small-up-active.png"
     overlay_stretch   = FALSE
   }
 
@@ -329,10 +329,10 @@ engine "pixmap"
       function        = BOX
       state           = NORMAL
       detail          = "spinbutton_down"
-      file            = "../assets/spinbutton-down.png"
+      file            = "../../assets/spinbutton-down.png"
       border          = { 5, 5, 5, 5 }
       stretch         = TRUE
-      overlay_file    = "../assets/arrow-small-down.png"
+      overlay_file    = "../../assets/arrow-small-down.png"
       overlay_stretch = FALSE
     }
     image
@@ -340,10 +340,10 @@ engine "pixmap"
       function        = BOX
       state           = PRELIGHT
       detail          = "spinbutton_down"
-      file            = "../assets/spinbutton-down.png"
+      file            = "../../assets/spinbutton-down.png"
       border          = { 5, 5, 5, 5 }
       stretch         = TRUE
-      overlay_file    = "../assets/arrow-small-down-hover.png"
+      overlay_file    = "../../assets/arrow-small-down-hover.png"
       overlay_stretch = FALSE
     }
     image
@@ -351,10 +351,10 @@ engine "pixmap"
       function        = BOX
       state           = INSENSITIVE
       detail          = "spinbutton_down"
-      file            = "../assets/spinbutton-down-insensitive.png"
+      file            = "../../assets/spinbutton-down-insensitive.png"
       border          = { 5, 5, 5, 5 }
       stretch         = TRUE
-      overlay_file    = "../assets/arrow-small-down-insensitive.png"
+      overlay_file    = "../../assets/arrow-small-down-insensitive.png"
       overlay_stretch = FALSE
     }
     image
@@ -362,10 +362,10 @@ engine "pixmap"
       function        = BOX
       state           = ACTIVE
       detail          = "spinbutton_down"
-      file            = "../assets/spinbutton-down.png"
+      file            = "../../assets/spinbutton-down.png"
       border          = { 5, 5, 5, 5 }
       stretch         = TRUE
-      overlay_file    = "../assets/arrow-small-down-hover.png"
+      overlay_file    = "../../assets/arrow-small-down-hover.png"
       overlay_stretch = FALSE
     }
   }

@@ -6,7 +6,7 @@ style "range"
     {
       function			= BOX
       detail			  = "trough"
-      file			    = "../assets/scale-trough-horizontal.png"
+      file			    = "../../assets/scale-trough-horizontal.png"
       border			  = { 4, 4, 0, 0 }
       stretch			  = TRUE
       orientation		= HORIZONTAL
@@ -15,7 +15,7 @@ style "range"
     {
       function			= BOX
       detail			  = "trough"
-      file			    = "../assets/scale-trough-vertical.png"
+      file			    = "../../assets/scale-trough-vertical.png"
       border			  = { 0, 0, 4, 4 }
       stretch			  = TRUE
       orientation		= VERTICAL
@@ -27,10 +27,10 @@ style "range"
     {
       function				= SLIDER
       state           = NORMAL
-      file				    = "../assets/null.png"
+      file				    = "../../assets/null.png"
       border				  = { 0, 0, 0, 0 }
       stretch				  = TRUE
-      overlay_file		= "../assets/scale-slider.png"
+      overlay_file		= "../../assets/scale-slider.png"
       overlay_stretch	= FALSE
       orientation			= HORIZONTAL
     }
@@ -38,10 +38,10 @@ style "range"
     {
       function				= SLIDER
       state           = PRELIGHT
-      file				    = "../assets/null.png"
+      file				    = "../../assets/null.png"
       border				  = { 0, 0, 0, 0 }
       stretch				  = TRUE
-      overlay_file		= "../assets/scale-slider-active.png"
+      overlay_file		= "../../assets/scale-slider-active.png"
       overlay_stretch	= FALSE
       orientation			= HORIZONTAL
     }
@@ -49,10 +49,10 @@ style "range"
     {
       function				= SLIDER
       state           = INSENSITIVE
-      file				    = "../assets/null.png"
+      file				    = "../../assets/null.png"
       border				  = { 0, 0, 0, 0 }
       stretch				  = TRUE
-      overlay_file		= "../assets/scale-slider.png"
+      overlay_file		= "../../assets/scale-slider.png"
       overlay_stretch	= FALSE
       orientation			= HORIZONTAL
     }
@@ -63,10 +63,10 @@ style "range"
     {
       function				= SLIDER
       state           = NORMAL
-      file				    = "../assets/null.png"
+      file				    = "../../assets/null.png"
       border				  = { 0, 0, 0, 0 }
       stretch				  = TRUE
-      overlay_file		= "../assets/scale-slider.png"
+      overlay_file		= "../../assets/scale-slider.png"
       overlay_stretch	= FALSE
       orientation			= VERTICAL
     }
@@ -74,22 +74,22 @@ style "range"
     {
       function				= SLIDER
       state           = PRELIGHT
-      file				    = "../assets/null.png"
+      file				    = "../../assets/null.png"
       border				  = { 0, 0, 0, 0 }
       stretch				  = TRUE
-      overlay_file		= "../assets/scale-slider-active.png"
+      overlay_file		= "../../assets/scale-slider-active.png"
       overlay_stretch	= FALSE
       orientation			= VERTICAL
     }
-		
+
     image
     {
       function				= SLIDER
       state           = INSENSITIVE
-      file				    = "../assets/null.png"
+      file				    = "../../assets/null.png"
       border				  = { 0, 0, 0, 0 }
       stretch				  = TRUE
-      overlay_file		= "../assets/scale-slider.png"
+      overlay_file		= "../../assets/scale-slider.png"
       overlay_stretch	= FALSE
       orientation			= VERTICAL
     }
@@ -98,7 +98,7 @@ style "range"
 	image
       	{
         	function		= BOX
-		      file        = "../assets/null.png"
+		      file        = "../../assets/null.png"
 		      border      = { 3, 3, 3, 3 }
 		      stretch     = TRUE
       	}

@@ -17,7 +17,7 @@ style "menubar"
           function      = BOX
           recolorable   = TRUE
           state         = PRELIGHT
-          file          = "../assets/menubar-button.png"
+          file          = "../../assets/menubar-button.png"
 
           border          = { 4, 4, 4, 4 }
           stretch         = TRUE
@@ -36,7 +36,7 @@ style "menu"
 
     image {
       function = HLINE
-      file = "../assets/line-h.png"
+      file = "../../assets/line-h.png"
       border = { 1, 1, 1, 1 }
       stretch = TRUE
     }
@@ -66,7 +66,7 @@ style "menu_item"
             recolorable             = TRUE
             state                   = NORMAL
             shadow                  = OUT
-            overlay_file            = "../assets/check-unchecked.png"
+            overlay_file            = "../../assets/check-unchecked.png"
             overlay_stretch         = TRUE  #needed for LibreOffice
         }
     image
@@ -75,7 +75,7 @@ style "menu_item"
             recolorable             = TRUE
             state                   = PRELIGHT
             shadow                  = OUT
-            overlay_file            = "../assets/check-unchecked.png"
+            overlay_file            = "../../assets/check-unchecked.png"
             overlay_stretch         = TRUE
         }
     image
@@ -84,7 +84,7 @@ style "menu_item"
             recolorable             = TRUE
             state                   = ACTIVE
             shadow                  = OUT
-            overlay_file            = "../assets/check-checked-active.png"
+            overlay_file            = "../../assets/check-checked-active.png"
             overlay_stretch         = TRUE
         }
     image
@@ -93,7 +93,7 @@ style "menu_item"
             recolorable             = TRUE
             state                   = INSENSITIVE
             shadow                  = OUT
-            overlay_file            = "../assets/check-unchecked-insensitive.png"
+            overlay_file            = "../../assets/check-unchecked-insensitive.png"
             overlay_stretch         = TRUE
         }
     image
@@ -102,7 +102,7 @@ style "menu_item"
             recolorable             = TRUE
               state                   = NORMAL
             shadow                  = IN
-            overlay_file            = "../assets/check-checked-active.png"
+            overlay_file            = "../../assets/check-checked-active.png"
             overlay_stretch       = TRUE
         }
     image
@@ -111,7 +111,7 @@ style "menu_item"
             recolorable             = TRUE
                 state                 = PRELIGHT
             shadow                  = IN
-            overlay_file            = "../assets/check-checked-active.png"
+            overlay_file            = "../../assets/check-checked-active.png"
             overlay_stretch         = TRUE
         }
     image
@@ -120,7 +120,7 @@ style "menu_item"
             recolorable             = TRUE
                 state                 = ACTIVE
             shadow                  = IN
-            overlay_file            = "../assets/check-checked-active.png"
+            overlay_file            = "../../assets/check-checked-active.png"
             overlay_stretch         = TRUE
         }
     image
@@ -129,7 +129,7 @@ style "menu_item"
             recolorable             = TRUE
             state                     = INSENSITIVE
             shadow                  = IN
-            overlay_file            = "../assets/check-checked-insensitive.png"
+            overlay_file            = "../../assets/check-checked-insensitive.png"
             overlay_stretch         = TRUE
     }
 
@@ -140,7 +140,7 @@ style "menu_item"
             function                = OPTION
             state                   = NORMAL
             shadow                  = OUT
-            overlay_file            = "../assets/radio-unchecked.png"
+            overlay_file            = "../../assets/radio-unchecked.png"
             overlay_stretch         = TRUE
         }
     image
@@ -148,7 +148,7 @@ style "menu_item"
             function                = OPTION
             state                   = PRELIGHT
             shadow                  = OUT
-            overlay_file            = "../assets/radio-unchecked.png"
+            overlay_file            = "../../assets/radio-unchecked.png"
             overlay_stretch         = TRUE
         }
     image
@@ -156,7 +156,7 @@ style "menu_item"
             function                = OPTION
             state                   = ACTIVE
             shadow                  = OUT
-            overlay_file            = "../assets/radio-checked-active.png"
+            overlay_file            = "../../assets/radio-checked-active.png"
             overlay_stretch         = TRUE
         }
     image
@@ -164,7 +164,7 @@ style "menu_item"
             function                = OPTION
             state                   = INSENSITIVE
             shadow                = OUT
-            overlay_file            = "../assets/radio-unchecked-insensitive.png"
+            overlay_file            = "../../assets/radio-unchecked-insensitive.png"
             overlay_stretch         = FALSE
         }
     image
@@ -172,7 +172,7 @@ style "menu_item"
             function                = OPTION
               state                     = NORMAL
             shadow                  = IN
-            overlay_file            = "../assets/radio-checked-active.png"
+            overlay_file            = "../../assets/radio-checked-active.png"
             overlay_stretch         = TRUE
         }
     image
@@ -180,7 +180,7 @@ style "menu_item"
             function                = OPTION
               state                   = PRELIGHT
             shadow                  = IN
-            overlay_file            = "../assets/radio-checked-active.png"
+            overlay_file            = "../../assets/radio-checked-active.png"
             overlay_stretch         = TRUE
         }
     image
@@ -188,7 +188,7 @@ style "menu_item"
             function                = OPTION
               state                   = ACTIVE
             shadow                  = IN
-            overlay_file            = "../assets/radio-checked-active.png"
+            overlay_file            = "../../assets/radio-checked-active.png"
             overlay_stretch       = TRUE
         }
     image
@@ -196,13 +196,13 @@ style "menu_item"
             function                = OPTION
               state                     = INSENSITIVE
             shadow                  = IN
-            overlay_file            = "../assets/radio-checked-insensitive.png"
+            overlay_file            = "../../assets/radio-checked-insensitive.png"
             overlay_stretch         = TRUE
         }
     image
         {
             function        = SHADOW # This fixes boxy Qt menu items
-              file        = "../assets/null.png"
+              file        = "../../assets/null.png"
               border      = { 10, 10, 10, 10 }
               stretch     = TRUE
         }
@@ -213,7 +213,7 @@ style "menu_item"
     {
       function              = ARROW
       state                   = NORMAL
-      overlay_file          = "../assets/menu-arrow.png"
+      overlay_file          = "../../assets/menu-arrow.png"
       overlay_border        = { 0, 0, 0, 0 }
       overlay_stretch       = FALSE
       arrow_direction       = RIGHT
@@ -222,7 +222,7 @@ style "menu_item"
     {
       function              = ARROW
       state                   = PRELIGHT
-      overlay_file          = "../assets/menu-arrow-selected.png"
+      overlay_file          = "../../assets/menu-arrow-selected.png"
       overlay_border        = { 0, 0, 0, 0 }
       overlay_stretch       = FALSE
       arrow_direction       = RIGHT
@@ -231,7 +231,7 @@ style "menu_item"
     {
       function              = ARROW
       state                   = INSENSITIVE
-      overlay_file          = "../assets/menu-arrow-insensitive.png"
+      overlay_file          = "../../assets/menu-arrow-insensitive.png"
       overlay_border        = { 0, 0, 0, 0 }
       overlay_stretch       = FALSE
       arrow_direction       = RIGHT
@@ -255,7 +255,7 @@ style "menu_framed_box" #this is not needed in Gnome
      {
         function                = BOX
         detail                  = "menu"
-        file                          = "../assets/frame.png"
+        file                          = "../../assets/frame.png"
         border                  = { 3, 3, 3, 3 }
         stretch                   = TRUE
      }
@@ -269,7 +269,7 @@ style "separator_menu_item"
         image
         {
             function            = BOX
-              file              = "../assets/line-h.png"
+              file              = "../../assets/line-h.png"
               border            = { 0, 0, 0, 0 }
               stretch         = TRUE
         }

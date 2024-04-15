@@ -15,7 +15,7 @@ style "entry"
         detail          = "entry"
     state       = NORMAL
         shadow          = IN
-        file            = "../assets/entry.png"
+        file            = "../../assets/entry.png"
         border          = { 4, 4, 4, 4 }
         stretch         = TRUE
     }
@@ -25,7 +25,7 @@ style "entry"
         detail          = "entry"
     state       = INSENSITIVE
         shadow          = IN
-        file            = "../assets/entry-insensitive.png"
+        file            = "../../assets/entry-insensitive.png"
         border          = { 4, 4, 4, 4 }
         stretch         = TRUE
     }
@@ -34,7 +34,7 @@ style "entry"
         function        = SHADOW
         detail          = "entry"
     state       = ACTIVE
-        file              = "../assets/entry-active.png"
+        file              = "../../assets/entry-active.png"
         border          = { 4, 4, 4, 4 }
         stretch         = TRUE
     }
@@ -43,7 +43,7 @@ style "entry"
         function    = FLAT_BOX
         detail      = "entry_bg"
         state       = ACTIVE
-        file              = "../assets/null.png"
+        file              = "../../assets/null.png"
         border          = { 0, 0, 0, 0 }
         stretch         = TRUE
     }
@@ -64,7 +64,7 @@ style "combobox_entry"
       detail = "entry"
       state = NORMAL
       shadow = IN
-      file = "../assets/combo-entry.png"
+      file = "../../assets/combo-entry.png"
       border = { 4, 4, 5, 4 }
       stretch = TRUE
       direction = LTR
@@ -75,7 +75,7 @@ style "combobox_entry"
       detail = "entry"
       state = INSENSITIVE
       shadow = IN
-      file = "../assets/combo-entry-insensitive.png"
+      file = "../../assets/combo-entry-insensitive.png"
       border = { 4, 4, 5, 4 }
       stretch = TRUE
       direction = LTR
@@ -85,7 +85,7 @@ style "combobox_entry"
       function = SHADOW
       detail = "entry"
       state = ACTIVE
-      file = "../assets/combo-entry-active.png"
+      file = "../../assets/combo-entry-active.png"
       border = { 4, 4, 5, 4 }
       stretch = TRUE
       direction = LTR
@@ -98,7 +98,7 @@ style "combobox_entry"
       detail = "entry"
       state = NORMAL
       shadow = IN
-      file = "../assets/combo-entry-button.png"
+      file = "../../assets/combo-entry-button.png"
       border = { 4, 4, 5, 4 }
       stretch = TRUE
       direction = RTL
@@ -109,7 +109,7 @@ style "combobox_entry"
       detail = "entry"
       state = INSENSITIVE
       shadow = IN
-      file = "../assets/combo-entry-button-insensitive.png"
+      file = "../../assets/combo-entry-button-insensitive.png"
       border = { 4, 4, 5, 4 }
       stretch = TRUE
       direction = RTL
@@ -119,7 +119,7 @@ style "combobox_entry"
       function = SHADOW
       detail = "entry"
       state = ACTIVE
-      file = "../assets/combo-entry-button-active.png"
+      file = "../../assets/combo-entry-button-active.png"
       border = { 4, 4, 5, 4 }
       stretch = TRUE
       direction = RTL
@@ -140,7 +140,7 @@ style "combobox_entry_button"
     image {
       function = BOX
       state = NORMAL
-      file = "../assets/combo-entry-button.png"
+      file = "../../assets/combo-entry-button.png"
       border = { 4, 4, 5, 4 }
       stretch = TRUE
       direction = LTR
@@ -149,7 +149,7 @@ style "combobox_entry_button"
     image {
       function = BOX
       state = PRELIGHT
-      file = "../assets/combo-entry-button.png"
+      file = "../../assets/combo-entry-button.png"
       border = { 4, 4, 5, 4 }
       stretch = TRUE
       direction = LTR
@@ -158,7 +158,7 @@ style "combobox_entry_button"
     image {
       function = BOX
       state = INSENSITIVE
-      file = "../assets/combo-entry-button-insensitive.png"
+      file = "../../assets/combo-entry-button-insensitive.png"
       border = { 4, 4, 5, 4 }
       stretch = TRUE
       direction = LTR
@@ -167,7 +167,7 @@ style "combobox_entry_button"
     image {
       function = BOX
       state = ACTIVE
-      file = "../assets/combo-entry-button-active.png"
+      file = "../../assets/combo-entry-button-active.png"
       border = { 4, 4, 5, 4 }
       stretch = TRUE
       direction = LTR
@@ -177,7 +177,7 @@ style "combobox_entry_button"
     image {
       function = BOX
       state = NORMAL
-      file = "../assets/combo-entry.png"
+      file = "../../assets/combo-entry.png"
       border = { 4, 4, 5, 4 }
       stretch = TRUE
       direction = RTL
@@ -186,7 +186,7 @@ style "combobox_entry_button"
     image {
       function = BOX
       state = PRELIGHT
-      file = "../assets/combo-entry.png"
+      file = "../../assets/combo-entry.png"
       border = { 4, 4, 5, 4 }
       stretch = TRUE
       direction = RTL
@@ -195,7 +195,7 @@ style "combobox_entry_button"
     image {
       function = BOX
       state = INSENSITIVE
-      file = "../assets/combo-entry-insensitive.png"
+      file = "../../assets/combo-entry-insensitive.png"
       border = { 4, 4, 5, 4 }
       stretch = TRUE
       direction = RTL
@@ -204,7 +204,7 @@ style "combobox_entry_button"
     image {
       function = BOX
       state = ACTIVE
-      file = "../assets/combo-entry-active.png"
+      file = "../../assets/combo-entry-active.png"
       border = { 4, 4, 5, 4 }
       stretch = TRUE
       direction = RTL

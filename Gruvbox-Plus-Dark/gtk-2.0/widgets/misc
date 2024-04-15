@@ -5,7 +5,7 @@ style "treeview"
     image
         {
             function            = BOX
-              file              = "../assets/tree-header.png"
+              file              = "../../assets/tree-header.png"
               border            = { 1, 1, 1, 1 }
               stretch         = TRUE
           }
@@ -19,7 +19,7 @@ style "scrolled_window"
     image
     {
        function         = SHADOW
-       file             = "../assets/frame.png"
+       file             = "../../assets/frame.png"
        border             = { 5, 5, 5, 5 }
        stretch          = TRUE
     }
@@ -36,7 +36,7 @@ style "frame"
         image
         {
                 function                = SHADOW
-                file                    = "../assets/frame.png"
+                file                    = "../../assets/frame.png"
                 border                  = { 1, 1, 1, 1 }
                 stretch                 = TRUE
                 shadow                  = IN
@@ -44,19 +44,19 @@ style "frame"
         image
         {
                 function                = SHADOW_GAP
-                file                    = "../assets/frame.png"
+                file                    = "../../assets/frame.png"
                 border                  = { 1, 1, 1, 1 }
                 stretch                 = TRUE
-                gap_start_file          = "../assets/frame-gap-start.png"
+                gap_start_file          = "../../assets/frame-gap-start.png"
                 gap_start_border        = { 1, 0, 0, 0 }
-                gap_end_file            = "../assets/frame-gap-end.png"
+                gap_end_file            = "../../assets/frame-gap-end.png"
                 gap_end_border          = { 0, 1, 0, 0 }
                 shadow                  = IN
         }
         image
         {
                 function                = SHADOW
-                file                    = "../assets/frame.png"
+                file                    = "../../assets/frame.png"
                 border                  = { 1, 1, 1, 1 }
                 stretch                 = TRUE
                 shadow                  = OUT
@@ -64,19 +64,19 @@ style "frame"
         image
         {
                 function                = SHADOW_GAP
-                file                    = "../assets/frame.png"
+                file                    = "../../assets/frame.png"
                 border                  = { 1, 1, 1, 1 }
                 stretch                 = TRUE
-                gap_start_file          = "../assets/frame-gap-start.png"
+                gap_start_file          = "../../assets/frame-gap-start.png"
                 gap_start_border        = { 1, 0, 0, 0 }
-                gap_end_file            = "../assets/frame-gap-end.png"
+                gap_end_file            = "../../assets/frame-gap-end.png"
                 gap_end_border          = { 0, 1, 0, 0 }
                 shadow                  = OUT
         }
         image
         {
                 function                = SHADOW
-                file                    = "../assets/frame.png"
+                file                    = "../../assets/frame.png"
                 border                      = { 1, 1, 1, 1 }
                 stretch                 = TRUE
                 shadow                  = ETCHED_IN
@@ -84,19 +84,19 @@ style "frame"
         image
         {
                 function                = SHADOW_GAP
-                file                    = "../assets/frame.png"
+                file                    = "../../assets/frame.png"
                 border                  = { 1, 1, 1, 1 }
                 stretch                 = TRUE
-                gap_start_file          = "../assets/frame-gap-start.png"
+                gap_start_file          = "../../assets/frame-gap-start.png"
                 gap_start_border        = { 1, 0, 0, 0 }
-                gap_end_file            = "../assets/frame-gap-end.png"
+                gap_end_file            = "../../assets/frame-gap-end.png"
                 gap_end_border          = { 0, 1, 0, 0 }
                 shadow                  = ETCHED_IN
         }
         image
         {
                 function                = SHADOW
-                file                    = "../assets/frame.png"
+                file                    = "../../assets/frame.png"
                 border                  = { 1, 1, 1, 1 }
                 stretch                 = TRUE
                 shadow                  = ETCHED_OUT
@@ -104,12 +104,12 @@ style "frame"
         image
         {
                 function                = SHADOW_GAP
-                file                    = "../assets/frame.png"
+                file                    = "../../assets/frame.png"
                 border                  = { 1, 1, 1, 1 }
                 stretch                 = TRUE
-                gap_start_file          = "../assets/frame-gap-start.png"
+                gap_start_file          = "../../assets/frame-gap-start.png"
                 gap_start_border        = { 1, 0, 0, 0 }
-                gap_end_file            = "../assets/frame-gap-end.png"
+                gap_end_file            = "../../assets/frame-gap-end.png"
                 gap_end_border          = { 0, 1, 0, 0 }
                 shadow                  = ETCHED_OUT
         }
@@ -128,7 +128,7 @@ style "tooltips"
 
 # Chromium
 
-style "chrome-gtk-frame" 
+style "chrome-gtk-frame"
 {
     ChromeGtkFrame::frame-color = @bg_color
     ChromeGtkFrame::inactive-frame-color = @bg_color
@@ -154,7 +154,7 @@ style "null"
         image
         {
             function    = BOX
-            file        = "../assets/null.png"
+            file        = "../../assets/null.png"
             stretch     = TRUE
     }
     }

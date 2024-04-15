@@ -6,7 +6,7 @@ style "scrollbar"
     {
       function      = BOX
       detail        = "trough"
-      file          = "../assets/scrollbar-trough-horizontal.png"
+      file          = "../../assets/scrollbar-trough-horizontal.png"
       border        = { 25,25, 7, 7 }   #large borders while LibreOffice won't use GtkScrollbar::stepper-spacing=1
       stretch       = TRUE
       orientation   = HORIZONTAL
@@ -15,19 +15,19 @@ style "scrollbar"
     {
       function      = BOX
       detail        = "trough"
-      file          = "../assets/scrollbar-trough-vertical.png"
+      file          = "../../assets/scrollbar-trough-vertical.png"
       border        = { 7, 7, 25, 25 }
       stretch       = TRUE
       orientation   = VERTICAL
     }
-    
+
 # Sliders
 
   image
     {
       function      = SLIDER
       state         = NORMAL
-      file          = "../assets/scrollbar-slider-horizontal.png"
+      file          = "../../assets/scrollbar-slider-horizontal.png"
       border        = { 5, 5, 5, 5 }
       stretch       = TRUE
       orientation   = HORIZONTAL
@@ -37,7 +37,7 @@ style "scrollbar"
     {
       function      = SLIDER
       state         = ACTIVE
-      file          = "../assets/scrollbar-slider-horizontal-hover.png"
+      file          = "../../assets/scrollbar-slider-horizontal-hover.png"
       border        = { 5, 5, 5, 5 }
       stretch       = TRUE
       orientation   = HORIZONTAL
@@ -47,7 +47,7 @@ style "scrollbar"
     {
       function      = SLIDER
       state         = PRELIGHT
-      file          = "../assets/scrollbar-slider-horizontal-hover.png"
+      file          = "../../assets/scrollbar-slider-horizontal-hover.png"
       border        = { 5, 5, 5, 5 }
       stretch       = TRUE
       orientation   = HORIZONTAL
@@ -57,7 +57,7 @@ style "scrollbar"
     {
       function      = SLIDER
       state         = INSENSITIVE
-      file          = "../assets/scrollbar-slider-horizontal.png"
+      file          = "../../assets/scrollbar-slider-horizontal.png"
       border        = { 5, 5, 5, 5 }
       stretch       = TRUE
       orientation   = HORIZONTAL
@@ -70,17 +70,17 @@ style "scrollbar"
     {
       function        = SLIDER
       state           = NORMAL
-      file            = "../assets/scrollbar-slider-vertical.png"
+      file            = "../../assets/scrollbar-slider-vertical.png"
       border          = { 5, 5, 5, 5 }
       stretch         = TRUE
       orientation     = VERTICAL
-      
+
     }
    image
     {
       function        = SLIDER
       state           = ACTIVE
-      file            = "../assets/scrollbar-slider-vertical-hover.png"
+      file            = "../../assets/scrollbar-slider-vertical-hover.png"
       border          = { 5, 5, 5, 5 }
       stretch         = TRUE
       orientation     = VERTICAL
@@ -90,7 +90,7 @@ style "scrollbar"
     {
       function        = SLIDER
       state           = PRELIGHT
-      file            = "../assets/scrollbar-slider-vertical-hover.png"
+      file            = "../../assets/scrollbar-slider-vertical-hover.png"
       border          = { 5, 5, 5, 5 }
       stretch         = TRUE
       orientation     = VERTICAL
@@ -100,18 +100,18 @@ style "scrollbar"
     {
       function        = SLIDER
       state           = INSENSITIVE
-      file            = "../assets/scrollbar-slider-vertical.png"
+      file            = "../../assets/scrollbar-slider-vertical.png"
       border          = { 5, 5, 5, 5 }
       stretch         = TRUE
       orientation     = VERTICAL
 
     }
-    image 
+    image
     {
       function        = STEPPER
-      file            = "../assets/null.png"
+      file            = "../../assets/null.png"
       stretch         = TRUE
-      
+
     }
   }
 }
